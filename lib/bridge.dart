@@ -257,6 +257,8 @@ class Native {
     final l = await _channel.invokeMethod<List<dynamic>>('getHistory') ?? const [];
     return l.map((e) => OfferRecord.fromMap(e as Map<dynamic, dynamic>)).toList();
   }
+  
 
   static Future<void> clearHistory() => _channel.invokeMethod('clearHistory');
 }
+/// github
