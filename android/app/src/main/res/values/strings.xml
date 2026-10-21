@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_label">Co Pilot</string>
+    <string name="accessibility_description">Lê as ofertas de corrida exibidas na tela dos apps de motorista e mostra uma recomendação em um overlay. Os dados ficam apenas no aparelho.</string>
+</resources>
